@@ -1,0 +1,71 @@
+
+.card{
+    width: 90vw;
+}
+.search{
+    width: 140px;
+    align-items: center;
+    text-align: center;
+    padding: 4px;
+     
+    
+}
+.search input{
+    font-size: 10px;
+    padding: 2px;
+    margin-right: 10px;
+    width: 140px;
+    text-align: center;
+    
+   
+}
+.search button{
+    padding: 10px;
+    margin: 10;
+    width: 50px;
+    height: 30px;
+   
+}
+.search button img{
+    width: 10px;
+    margin-bottom: 12px;
+
+}
+
+.wather-icon{
+   
+    width: 100px;
+}
+.wather h1{
+    font-size: 20px;
+    font-weight: 500;
+}
+.wather h2{
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.detail{
+    width: 150px;
+}
+.col{
+    margin: 0px 0px;
+    height: 60px;
+}
+.col img{
+    width: 20px;
+    margin-right: 8px;
+  
+    
+}
+.humidity, .wind{
+    font-size: 12px;
+    
+}
+P{
+    font-size: 15px;
+}
+#goot{
+  position: relative;
+  right: 45px;
+}

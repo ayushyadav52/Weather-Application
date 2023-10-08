@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    
+   background: #222;
+  
+}
+.card{
+    background: linear-gradient(135deg, rgb(152, 190, 17), rgb(63, 63, 238));
+    margin: 100px auto 0;
+    width: 90%;
+    max-width: 470px;
+    color: #fff;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+.search{
+ 
+    display: flex;
+    align-items: center;
+   
+}
+.search input{
+    outline: 0;
+    border: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 20px 25px;
+    margin-right: 16px;
+    flex: 1;
+    height: 60%;
+    border-radius: 30px;
+    font-size: 18px;
+    text-align: center;
+
+}
+.search button{
+    outline: 0;
+    border: 0;
+    background: #ebfffc;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    border-radius: 50%;
+    
+
+}
+.search button img{
+    width: 16px;
+
+}
+.wather{
+    display: none;
+}
+.wather-icon{
+    margin-top: 30px;
+    width: 170px;
+}
+.wather h1{
+    font-size: 80px;
+    font-weight: 500;
+}
+.wather h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 0 20px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+.humidity, .wind{
+    font-size: 28px;
+    margin-top: -6px;
+}
+.error{
+    font-size: 20px;
+    margin-top: 15px;
+    font-weight: bold;
+    color: rgb(48, 2, 48);
+    display: none;
+    text-align: center;
+   
+   
+}
