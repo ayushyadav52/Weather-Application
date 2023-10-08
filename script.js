@@ -27,7 +27,7 @@ async function checkWhether() {
 
         }
         else if (data.weather[0].main == 'Clear') {
-            document.querySelector(".wather-icon").src = 'images/clouds.png';
+            document.querySelector(".wather-icon").src = 'images/clear.png';
         }
         else if (data.weather[0].main == 'Rain') {
             document.querySelector(".wather-icon").src = 'images/rain.png';
